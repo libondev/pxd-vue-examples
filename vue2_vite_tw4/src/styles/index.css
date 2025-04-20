@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "../../node_modules/pxd/dist/tokens.css";
+@source "../../node_modules/pxd";
+
+html,
+body,
+#app {
+  @apply h-full;
+}
+
+#app {
+  @apply flex flex-col;
+}
