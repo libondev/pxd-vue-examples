@@ -10,5 +10,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     PButton: typeof import('pxd/components/button')['default']
     PConfigProvider: typeof import('pxd/components/config-provider')['default']
+    PHoldButton: typeof import('pxd/components/hold-button')['default']
   }
 }
