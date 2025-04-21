@@ -16,7 +16,7 @@ async function run() {
       json.dependencies['pxd'] = latestVersion
     }
 
-    await fs.writeFile(pkg, JSON.stringify(`${json}\n`, null, 2))
+    await fs.writeFile(pkg, JSON.stringify(json, null, 2) + '\n')
   }
 }
 
