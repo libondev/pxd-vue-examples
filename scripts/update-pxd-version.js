@@ -18,6 +18,8 @@ async function run() {
 
     await fs.writeFile(pkg, JSON.stringify(json, null, 2) + '\n')
   }
+
+  console.log(`The latest version is: "${latestVersion}", Update completed.`)
 }
 
 run()

@@ -3,7 +3,7 @@ import Page from './Page.vue'
 </script>
 
 <template>
-  <PConfigProvider size="sm" class="p-2 flex items-center justify-center">
+  <PConfigProvider size="md" class="p-2 flex items-center justify-center">
     <Page />
   </PConfigProvider>
 </template>
