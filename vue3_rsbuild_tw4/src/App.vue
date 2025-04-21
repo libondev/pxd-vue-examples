@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import { ConfigProvider, Button, HoldButton } from 'pxd';
+
+</script>
+
 <template>
-  <div class="content">
-    <h1>Rsbuild with Vue</h1>
-    <p>Start building amazing things with Rsbuild.</p>
-  </div>
+  <ConfigProvider class="p-2 flex flex-col gap-2 justify-center items-center h-full">
+    <Button>Click me</Button>
+    <HoldButton durations="1">Hold me</HoldButton>
+  </ConfigProvider>
 </template>

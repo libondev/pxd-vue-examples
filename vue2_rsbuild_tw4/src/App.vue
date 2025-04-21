@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ConfigProvider } from 'pxd';
+import { ConfigProvider, Button, HoldButton } from 'pxd';
 
 </script>
 
