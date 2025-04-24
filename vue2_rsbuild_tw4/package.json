@@ -9,7 +9,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "pxd": "^0.0.8",
+    "pxd": "^0.0.10",
     "vue": "^2.7.16"
   },
   "devDependencies": {

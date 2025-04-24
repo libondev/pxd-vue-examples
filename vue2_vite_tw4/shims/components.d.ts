@@ -11,5 +11,6 @@ declare module 'vue' {
     PButton: typeof import('pxd/components/button')['default']
     PConfigProvider: typeof import('pxd/components/config-provider')['default']
     PHoldButton: typeof import('pxd/components/hold-button')['default']
+    PMoreButton: typeof import('pxd/components/more-button')['default']
   }
 }
