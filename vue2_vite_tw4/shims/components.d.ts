@@ -9,8 +9,10 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     PButton: typeof import('pxd/components/button')['default']
+    PColorScheme: typeof import('pxd/components/color-scheme')['default']
     PConfigProvider: typeof import('pxd/components/config-provider')['default']
     PHoldButton: typeof import('pxd/components/hold-button')['default']
+    PLinkButton: typeof import('pxd/components/link-button')['default']
     PMoreButton: typeof import('pxd/components/more-button')['default']
   }
 }

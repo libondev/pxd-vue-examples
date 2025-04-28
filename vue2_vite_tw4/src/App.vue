@@ -9,5 +9,7 @@ const isExpanded = ref(false);
     <PButton block>Click me</PButton>
     <PHoldButton block durations="1">Hold me</PHoldButton>
     <PMoreButton v-model="isExpanded" less-text="lesssss" more-text="moreeeee"></PMoreButton>
+    <PLinkButton>Link me</PLinkButton>
+    <PColorScheme></PColorScheme>
   </PConfigProvider>
 </template>
