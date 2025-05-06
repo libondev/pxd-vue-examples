@@ -12,6 +12,7 @@ declare module 'vue' {
     PColorScheme: typeof import('pxd/components/color-scheme')['default']
     PConfigProvider: typeof import('pxd/components/config-provider')['default']
     PHoldButton: typeof import('pxd/components/hold-button')['default']
+    PInput: typeof import('pxd/components/input')['default']
     PLinkButton: typeof import('pxd/components/link-button')['default']
     PMoreButton: typeof import('pxd/components/more-button')['default']
   }

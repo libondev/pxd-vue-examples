@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 
+const value = ref('')
 const isExpanded = ref(false);
 </script>
 
@@ -10,6 +11,6 @@ const isExpanded = ref(false);
     <PHoldButton block durations="1">Hold me</PHoldButton>
     <PMoreButton v-model="isExpanded" less-text="lesssss" more-text="moreeeee"></PMoreButton>
     <PLinkButton>Link me</PLinkButton>
-    <PColorScheme></PColorScheme>
+    <PInput v-model="value" />
   </PConfigProvider>
 </template>
