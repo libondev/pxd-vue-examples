@@ -2,7 +2,7 @@
 import { ConfigProvider, Button, HoldButton, MoreButton } from 'pxd'
 import { ref } from 'vue';
 
-const value = ref('')
+const value = ref(10)
 const isExpanded = ref(false);
 </script>
 
@@ -12,5 +12,7 @@ const isExpanded = ref(false);
     <HoldButton durations="1">Hold me</HoldButton>
     <MoreButton v-model="isExpanded">Hold me</MoreButton>
     <PInput v-model="value" />
+    <PSlider class="w-full" v-model="value" />
+    <PProgress v-model="value" />
   </ConfigProvider>
 </template>

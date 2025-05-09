@@ -9,5 +9,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     PInput: typeof import('pxd/components/input')['default']
+    PProgress: typeof import('pxd/components/progress')['default']
+    PSlider: typeof import('pxd/components/slider')['default']
   }
 }

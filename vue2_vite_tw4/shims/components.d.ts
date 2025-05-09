@@ -15,5 +15,7 @@ declare module 'vue' {
     PInput: typeof import('pxd/components/input')['default']
     PLinkButton: typeof import('pxd/components/link-button')['default']
     PMoreButton: typeof import('pxd/components/more-button')['default']
+    PProgress: typeof import('pxd/components/progress')['default']
+    PSlider: typeof import('pxd/components/slider')['default']
   }
 }
