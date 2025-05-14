@@ -8,7 +8,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "pxd": "^0.0.13",
+    "pxd": "^0.0.15",
     "vue": "^2.7.16"
   },
   "devDependencies": {
