@@ -17,5 +17,6 @@ declare module 'vue' {
     PMoreButton: typeof import('pxd/components/more-button')['default']
     PProgress: typeof import('pxd/components/progress')['default']
     PSlider: typeof import('pxd/components/slider')['default']
+    PTooltip: typeof import('pxd/components/tooltip')['default']
   }
 }

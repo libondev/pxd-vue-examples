@@ -8,7 +8,7 @@
     "preview": "pnpx http-server dist -p 8080"
   },
   "dependencies": {
-    "pxd": "^0.0.15",
+    "pxd": "^0.0.16",
     "vue": "^2.7.14"
   },
   "devDependencies": {

@@ -13,5 +13,8 @@ const isExpanded = ref(false);
     <PInput v-model="value" />
     <PSlider class="w-full" v-model="value" />
     <PProgress v-model="value" />
+    <PTooltip content="This is a tooltip">
+      <PButton>Hover me</PButton>
+    </PTooltip>
   </PConfigProvider>
 </template>
