@@ -3,6 +3,13 @@ import { ref } from 'vue';
 
 const value = ref(0)
 const isExpanded = ref(false);
+const selectedOptions = ref([]);
+
+const options = [
+  { label: 'Option 1', value: 1 },
+  { label: 'Option 2', value: 2 },
+  { label: 'Option 3', value: 3 },
+]
 </script>
 
 <template>
@@ -13,8 +20,9 @@ const isExpanded = ref(false);
     <PInput v-model="value" />
     <PSlider class="w-full" v-model="value" />
     <PProgress v-model="value" />
-    <PTooltip content="This is a tooltip">
+    <PTooltip content="This is a tooltip" position="left">
       <PButton>Hover me</PButton>
     </PTooltip>
+    <PCheckboxGroup v-model="selectedOptions" gap="8" :options="options" />
   </PConfigProvider>
 </template>
