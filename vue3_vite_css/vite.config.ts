@@ -5,6 +5,16 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vue': ['vue'],
+          'pxd': ['pxd'],
+        },
+      },
+    },
+  },
   plugins: [
     vue(),
   ],

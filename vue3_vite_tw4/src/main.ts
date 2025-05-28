@@ -1,5 +1,6 @@
 
 import { createApp } from 'vue'
+// @ts-expect-error
 import App from './App.vue'
 import './styles.css'
 

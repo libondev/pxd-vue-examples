@@ -8,6 +8,16 @@ import PxdResolver from 'pxd/resolver'
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vue': ['vue'],
+          'pxd': ['pxd'],
+        },
+      },
+    },
+  },
   plugins: [
     vue(),
     tailwindcss(),

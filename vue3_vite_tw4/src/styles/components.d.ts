@@ -8,14 +8,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    PButton: typeof import('pxd/components/button')['default']
-    PCheckboxGroup: typeof import('pxd/components/checkbox-group')['default']
     PConfigProvider: typeof import('pxd/components/config-provider')['default']
-    PHoldButton: typeof import('pxd/components/hold-button')['default']
-    PInput: typeof import('pxd/components/input')['default']
-    PMoreButton: typeof import('pxd/components/more-button')['default']
-    PProgress: typeof import('pxd/components/progress')['default']
-    PSlider: typeof import('pxd/components/slider')['default']
-    PTooltip: typeof import('pxd/components/tooltip')['default']
   }
 }

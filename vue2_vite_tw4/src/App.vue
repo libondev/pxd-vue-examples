@@ -17,7 +17,7 @@ const options = [
     <PButton block>Click me</PButton>
     <PHoldButton block durations="1">Hold me</PHoldButton>
     <PMoreButton v-model="isExpanded" less-text="lesssss" more-text="moreeeee"></PMoreButton>
-    <PInput v-model="value" />
+    <PInput v-model="value" allow-clear />
     <PSlider class="w-full" v-model="value" />
     <PProgress v-model="value" />
     <PTooltip content="This is a tooltip" position="left">

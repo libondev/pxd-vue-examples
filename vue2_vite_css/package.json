@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "pxd": "^0.0.16",
+    "pxd": "^0.0.17",
     "vue": "^2.7.16"
   },
   "devDependencies": {
