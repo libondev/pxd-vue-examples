@@ -22,7 +22,7 @@ export default defineConfig({
     vue(),
     tailwindcss(),
     components({
-      dts: './src/styles/components.d.ts',
+      dts: './src/shims/components.d.ts',
       resolvers: [
         PxdResolver(),
       ],
